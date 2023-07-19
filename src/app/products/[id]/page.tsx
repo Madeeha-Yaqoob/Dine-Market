@@ -37,7 +37,7 @@ export default function Page({ params }: { params: { id: string } }) {
                 <div className="flex gap-3">
                   {sizes.map((item) => {
                     return (
-                      <div className="flex items-center justify-center w-7 h-7 mt-2 duration-300 border rounded-full hover:shadow-xl">
+                      <div key={item} className="flex items-center justify-center w-7 h-7 mt-2 duration-300 border rounded-full hover:shadow-xl">
                         <span className="text-[10px] font-semibold text-center text-gray-700">
                           {item}
                         </span>
