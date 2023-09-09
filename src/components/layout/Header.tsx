@@ -14,13 +14,13 @@ const Header = () => {
         );
     return (
         <div className='flex justify-between items-center px-20 m-8'>
-            <Link className='curcour-pointer' href={"/"}>
+            <Link className='curcour-pointer' href={"../../../"}>
             <Image src={logo} alt='logo' className='w-136'/ >
             </Link>
             <ul className='flex gap-x-7 text-2xl font-sans'>
-                <li><Link href={"category/Female"}>Female</Link></li>
-                <li><Link href={"category/Male"}>Male</Link></li>
-                <li><Link href={"category/Kids"}>Kids</Link></li>
+                <li><Link href={"../../category/Female"}>Female</Link></li>
+                <li><Link href={"../../category/Male"}>Male</Link></li>
+                <li><Link href={"../../category/Kids"}>Kids</Link></li>
                 <li><Link href={"/products"}>All Products</Link></li>
             </ul>
             <div className='flex gap-0'>
@@ -37,4 +37,4 @@ const Header = () => {
 
     )
 }
-export default Header
+export default Header;

@@ -1,6 +1,6 @@
 import { Badge } from "components/ui/badge"
 import { Button } from "components/ui/button";
-import {ShoppingCart} from "lucide-react"
+import {Link, ShoppingCart} from "lucide-react"
 import hero1 from 'public/hero1.webp'
 import hero2 from 'public/hero2.webp'
 import hero3 from 'public/hero3.webp'
@@ -26,7 +26,7 @@ const Hero = () => {
                     <Image src={hero4} alt="logo"/>
                 </div>
             </div>
-            <div className="flex-1  h-{575px} w-{575px} overflow-visible rounded-full bg-orange-100">
+            <div className="flex-1  rounded-full bg-orange-100">
                 <Image className="mx-auto mt-5 h-400px w-300px" src={hero} alt="picture"/>
 
 
